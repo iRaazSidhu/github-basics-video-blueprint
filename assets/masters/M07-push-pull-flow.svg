@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a1020"/><stop offset="1" stop-color="#101b30"/></linearGradient>
+ <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#43e5a0"/><stop offset="1" stop-color="#76f0bd"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4389f5"/><stop offset="1" stop-color="#7fc0ff"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000" flood-opacity=".3"/></filter>
+</defs>
+<rect width="1920" height="1080" fill="url(#bg)"/>
+<circle cx="1580" cy="150" r="280" fill="#19395a" opacity=".18"/><circle cx="260" cy="930" r="250" fill="#155b4b" opacity=".15"/>
+<g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#f4f7fb">
+ <text x="120" y="118" font-size="28" fill="#43e5a0" letter-spacing="6">GITHUB BASICS · VISUAL MASTER</text>
+ <text x="120" y="205" font-size="64" font-weight="750">Local and remote stay in sync</text>
+ <text x="120" y="260" font-size="28" fill="#aab8cd">Push sends local commits to GitHub; pull brings remote changes back and integrates them.</text>
+</g>
+
+<g filter="url(#shadow)">
+ <rect x="190" y="360" width="570" height="460" rx="28" fill="#14233a" stroke="#395473" stroke-width="3"/>
+ <rect x="1160" y="360" width="570" height="460" rx="28" fill="#14233a" stroke="#395473" stroke-width="3"/>
+ <rect x="265" y="435" width="420" height="65" rx="12" fill="#223854"/><text x="475" y="478" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#f4f7fb" text-anchor="middle" font-size="27" font-weight="700">Your computer</text>
+ <rect x="1235" y="435" width="420" height="65" rx="12" fill="#223854"/><text x="1445" y="478" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#f4f7fb" text-anchor="middle" font-size="27" font-weight="700">GitHub remote</text>
+ <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="22" fill="#cbd7e7">
+  <rect x="280" y="540" width="390" height="58" rx="10" fill="#0d1727"/><text x="475" y="577" text-anchor="middle">Local commits</text>
+  <rect x="1250" y="540" width="390" height="58" rx="10" fill="#0d1727"/><text x="1445" y="577" text-anchor="middle">Remote commits</text>
+ </g>
+ <path d="M790 520H1095" stroke="#43e5a0" stroke-width="10" stroke-linecap="round"/><path d="M1065 490L1100 520L1065 550" fill="none" stroke="#43e5a0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+ <rect x="870" y="465" width="155" height="48" rx="24" fill="#184d40"/><text x="947" y="497" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#7cf0b9" text-anchor="middle" font-size="23" font-weight="700">PUSH</text>
+ <path d="M1100 680H795" stroke="#78b7ff" stroke-width="10" stroke-linecap="round"/><path d="M825 650L790 680L825 710" fill="none" stroke="#78b7ff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+ <rect x="870" y="690" width="155" height="48" rx="24" fill="#1f3d67"/><text x="947" y="722" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#9acbff" text-anchor="middle" font-size="23" font-weight="700">PULL</text>
+</g>
+
+<g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#7e91ad" font-size="18"><text x="120" y="1015">Reusable vector asset · 16:9 · Designed for crop, pan, zoom and animated overlays</text></g>
+</svg>
