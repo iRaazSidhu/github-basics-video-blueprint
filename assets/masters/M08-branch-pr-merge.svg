@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a1020"/><stop offset="1" stop-color="#101b30"/></linearGradient>
+ <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#43e5a0"/><stop offset="1" stop-color="#76f0bd"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4389f5"/><stop offset="1" stop-color="#7fc0ff"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000" flood-opacity=".3"/></filter>
+</defs>
+<rect width="1920" height="1080" fill="url(#bg)"/>
+<circle cx="1580" cy="150" r="280" fill="#19395a" opacity=".18"/><circle cx="260" cy="930" r="250" fill="#155b4b" opacity=".15"/>
+<g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#f4f7fb">
+ <text x="120" y="118" font-size="28" fill="#43e5a0" letter-spacing="6">GITHUB BASICS · VISUAL MASTER</text>
+ <text x="120" y="205" font-size="64" font-weight="750">Work on a branch, then review</text>
+ <text x="120" y="260" font-size="28" fill="#aab8cd">A pull request makes proposed changes reviewable before they're merged into the main branch.</text>
+</g>
+
+<g filter="url(#shadow)">
+ <rect x="180" y="370" width="1560" height="480" rx="28" fill="#111c2e" stroke="#334a66" stroke-width="3"/>
+ <text x="250" y="435" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#f4f7fb" font-size="30" font-weight="700">Branch → Review → Merge</text>
+ <path d="M285 620H1610" stroke="#5e7391" stroke-width="10" stroke-linecap="round"/>
+ <path d="M510 620 C640 620 650 525 790 525 H1200 C1320 525 1340 620 1450 620" stroke="#43e5a0" stroke-width="10" stroke-linecap="round" fill="none"/>
+ <circle cx="285" cy="620" r="20" fill="#68a9ff" stroke="#e3edf8" stroke-width="3"/><circle cx="510" cy="620" r="20" fill="#68a9ff" stroke="#e3edf8" stroke-width="3"/><circle cx="790" cy="525" r="20" fill="#43e5a0" stroke="#e3edf8" stroke-width="3"/><circle cx="1010" cy="525" r="20" fill="#43e5a0" stroke="#e3edf8" stroke-width="3"/><circle cx="1200" cy="525" r="20" fill="#43e5a0" stroke="#e3edf8" stroke-width="3"/><circle cx="1450" cy="620" r="20" fill="#68a9ff" stroke="#e3edf8" stroke-width="3"/><circle cx="1610" cy="620" r="20" fill="#68a9ff" stroke="#e3edf8" stroke-width="3"/>
+ <rect x="680" y="455" width="250" height="54" rx="27" fill="#184d40"/><text x="805" y="490" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#7cf0b9" font-size="22" font-weight="700" text-anchor="middle">FEATURE BRANCH</text>
+ <rect x="950" y="680" width="400" height="95" rx="18" fill="#192a42" stroke="#6488b5" stroke-width="2"/>
+ <text x="990" y="720" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#f4f7fb" font-size="22" font-weight="700">Pull request</text><text x="990" y="752" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#a7bad2" font-size="18">Review changes before merge</text>
+ <path d="M1100 680L1100 555" stroke="#6f87a7" stroke-width="3" stroke-dasharray="8 8"/>
+ <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#a9bad0" font-size="20"><text x="285" y="682">main</text><text x="1450" y="682">main updated</text></g>
+</g>
+
+<g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#7e91ad" font-size="18"><text x="120" y="1015">Reusable vector asset · 16:9 · Designed for crop, pan, zoom and animated overlays</text></g>
+</svg>
