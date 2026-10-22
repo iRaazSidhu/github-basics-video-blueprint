@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a1020"/><stop offset="1" stop-color="#101b30"/></linearGradient>
+ <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#43e5a0"/><stop offset="1" stop-color="#76f0bd"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4389f5"/><stop offset="1" stop-color="#7fc0ff"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000" flood-opacity=".3"/></filter>
+</defs>
+<rect width="1920" height="1080" fill="url(#bg)"/>
+<circle cx="1580" cy="150" r="280" fill="#19395a" opacity=".18"/><circle cx="260" cy="930" r="250" fill="#155b4b" opacity=".15"/>
+<g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#f4f7fb">
+ <text x="120" y="118" font-size="28" fill="#43e5a0" letter-spacing="6">GITHUB BASICS · VISUAL MASTER</text>
+ <text x="120" y="205" font-size="64" font-weight="750">Code becomes a project</text>
+ <text x="120" y="260" font-size="28" fill="#aab8cd">Start with code on your computer, then share it through a remote repository.</text>
+</g>
+
+<g filter="url(#shadow)">
+ <rect x="260" y="360" width="770" height="430" rx="28" fill="#17243a" stroke="#33445f" stroke-width="4"/>
+ <rect x="292" y="398" width="706" height="342" rx="14" fill="#0a1323"/>
+ <circle cx="326" cy="426" r="7" fill="#ff817e"/><circle cx="350" cy="426" r="7" fill="#f7c66d"/><circle cx="374" cy="426" r="7" fill="#43e5a0"/>
+ <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-family="monospace" font-size="25">
+  <text x="340" y="500" fill="#7fc0ff">&lt;section&gt;</text><text x="380" y="555" fill="#f4f7fb">Build something</text><text x="380" y="610" fill="#43e5a0">amazing();</text><text x="340" y="665" fill="#7fc0ff">&lt;/section&gt;</text>
+  <rect x="316" y="515" width="8" height="32" rx="4" fill="#43e5a0"/>
+ </g>
+ <path d="M220 810 H1070 L1000 860 H290Z" fill="#52637e"/><path d="M450 815 H840 L800 842 H490Z" fill="#263850"/>
+</g>
+<path d="M1080 560 C1200 560 1210 470 1300 470 S1400 540 1480 500" fill="none" stroke="#43e5a0" stroke-width="8" stroke-linecap="round" stroke-dasharray="18 20"/>
+<g filter="url(#shadow)">
+ <path d="M1420 420 C1420 370 1465 338 1510 356 C1540 284 1650 296 1671 376 C1740 375 1770 425 1745 469 H1455 C1433 456 1420 440 1420 420Z" fill="#203654" stroke="#4f7fab" stroke-width="4"/>
+ <rect x="1490" y="400" width="180" height="100" rx="16" fill="#122139" stroke="#41658c" stroke-width="3"/>
+ <path d="M1530 430H1630 M1530 455H1600 M1530 480H1615" stroke="#43e5a0" stroke-width="8" stroke-linecap="round"/>
+</g>
+<g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" text-anchor="middle" font-size="28" fill="#f4f7fb"><text x="645" y="920">LOCAL CODE</text><text x="1585" y="570">REMOTE REPOSITORY</text></g>
+
+<g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#7e91ad" font-size="18"><text x="120" y="1015">Reusable vector asset · 16:9 · Designed for crop, pan, zoom and animated overlays</text></g>
+</svg>
