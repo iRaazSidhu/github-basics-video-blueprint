@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a1020"/><stop offset="1" stop-color="#101b30"/></linearGradient>
+ <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#43e5a0"/><stop offset="1" stop-color="#76f0bd"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4389f5"/><stop offset="1" stop-color="#7fc0ff"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000" flood-opacity=".3"/></filter>
+</defs>
+<rect width="1920" height="1080" fill="url(#bg)"/>
+<circle cx="1580" cy="150" r="280" fill="#19395a" opacity=".18"/><circle cx="260" cy="930" r="250" fill="#155b4b" opacity=".15"/>
+<g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#f4f7fb">
+ <text x="120" y="118" font-size="28" fill="#43e5a0" letter-spacing="6">GITHUB BASICS · VISUAL MASTER</text>
+ <text x="120" y="205" font-size="64" font-weight="750">Choose who can see your code</text>
+ <text x="120" y="260" font-size="28" fill="#aab8cd">Private limits access; public repositories are visible to anyone.</text>
+</g>
+
+<g filter="url(#shadow)">
+ <rect x="220" y="350" width="700" height="490" rx="28" fill="#14233a" stroke="#3b536f" stroke-width="3"/>
+ <rect x="1000" y="350" width="700" height="490" rx="28" fill="#14233a" stroke="#3b536f" stroke-width="3"/>
+ <rect x="280" y="410" width="580" height="70" rx="14" fill="#223650"/><text x="570" y="455" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#f4f7fb" font-size="29" font-weight="700" text-anchor="middle">PRIVATE REPOSITORY</text>
+ <rect x="1060" y="410" width="580" height="70" rx="14" fill="#223650"/><text x="1350" y="455" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#f4f7fb" font-size="29" font-weight="700" text-anchor="middle">PUBLIC REPOSITORY</text>
+ <g transform="translate(570 610)">
+  <rect x="-82" y="-5" width="164" height="135" rx="18" fill="#1b3e39" stroke="#43e5a0" stroke-width="5"/><path d="M-48 -5V-42A48 48 0 0 1 48 -42V-5" stroke="#43e5a0" stroke-width="12" fill="none" stroke-linecap="round"/><circle cx="0" cy="45" r="14" fill="#43e5a0"/><path d="M0 57V78" stroke="#43e5a0" stroke-width="10" stroke-linecap="round"/>
+ </g>
+ <g transform="translate(1350 610)">
+  <circle r="118" fill="#17385d" stroke="#71b5ff" stroke-width="5"/><ellipse rx="50" ry="118" fill="none" stroke="#71b5ff" stroke-width="4"/><path d="M-110 0H110 M-90 -60Q0 -25 90 -60 M-90 60Q0 25 90 60" fill="none" stroke="#71b5ff" stroke-width="4"/>
+ </g>
+ <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" text-anchor="middle"><text x="570" y="800" fill="#92e9c5" font-size="22">Access is restricted</text><text x="1350" y="800" fill="#9bcfff" font-size="22">Anyone can view</text></g>
+</g>
+
+<g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#7e91ad" font-size="18"><text x="120" y="1015">Reusable vector asset · 16:9 · Designed for crop, pan, zoom and animated overlays</text></g>
+</svg>
