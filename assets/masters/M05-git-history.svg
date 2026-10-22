@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a1020"/><stop offset="1" stop-color="#101b30"/></linearGradient>
+ <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#43e5a0"/><stop offset="1" stop-color="#76f0bd"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4389f5"/><stop offset="1" stop-color="#7fc0ff"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000" flood-opacity=".3"/></filter>
+</defs>
+<rect width="1920" height="1080" fill="url(#bg)"/>
+<circle cx="1580" cy="150" r="280" fill="#19395a" opacity=".18"/><circle cx="260" cy="930" r="250" fill="#155b4b" opacity=".15"/>
+<g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#f4f7fb">
+ <text x="120" y="118" font-size="28" fill="#43e5a0" letter-spacing="6">GITHUB BASICS · VISUAL MASTER</text>
+ <text x="120" y="205" font-size="64" font-weight="750">Every change has a story</text>
+ <text x="120" y="260" font-size="28" fill="#aab8cd">Commits create checkpoints you can inspect and compare over time.</text>
+</g>
+
+<g filter="url(#shadow)">
+ <rect x="220" y="360" width="1480" height="485" rx="28" fill="#111b2d" stroke="#334964" stroke-width="3"/>
+ <text x="300" y="430" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#f4f7fb" font-size="30" font-weight="700">Project history</text>
+ <path d="M340 610H1580" stroke="#455873" stroke-width="10" stroke-linecap="round"/>
+ <circle cx="390" cy="610" r="24" fill="#68a9ff" stroke="#e2edf8" stroke-width="4"/><circle cx="630" cy="610" r="24" fill="#68a9ff" stroke="#e2edf8" stroke-width="4"/><circle cx="870" cy="610" r="24" fill="#68a9ff" stroke="#e2edf8" stroke-width="4"/><circle cx="1110" cy="610" r="24" fill="#b49aff" stroke="#e2edf8" stroke-width="4"/><circle cx="1350" cy="610" r="24" fill="#68a9ff" stroke="#e2edf8" stroke-width="4"/><circle cx="1550" cy="610" r="30" fill="#43e5a0" stroke="#e2edf8" stroke-width="4"/>
+ <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" text-anchor="middle" font-size="24" fill="#f4f7fb">
+  <text x="390" y="535">Initial</text><text x="630" y="535">Layout</text><text x="870" y="535">Styles</text><text x="1110" y="535">Feature</text><text x="1350" y="535">Fix</text><text x="1550" y="535">Latest</text>
+ </g>
+ <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" text-anchor="middle" font-size="18" fill="#98abc4">
+  <text x="390" y="675">commit 01</text><text x="630" y="675">commit 02</text><text x="870" y="675">commit 03</text><text x="1110" y="675">commit 04</text><text x="1350" y="675">commit 05</text><text x="1550" y="675">commit 06</text>
+ </g>
+ <rect x="300" y="730" width="1320" height="66" rx="12" fill="#1a2a40"/>
+ <circle cx="335" cy="763" r="10" fill="#43e5a0"/><text x="365" y="772" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#dce6f2" font-size="22">Each commit records a snapshot of tracked changes</text>
+</g>
+
+<g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#7e91ad" font-size="18"><text x="120" y="1015">Reusable vector asset · 16:9 · Designed for crop, pan, zoom and animated overlays</text></g>
+</svg>
